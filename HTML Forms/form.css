@@ -1,0 +1,21 @@
+.Box_form{
+    margin:auto;
+    width:700px;
+    background-color: #eaeaea;
+    padding:30px;
+}
+sup{
+    color:red;
+}
+button {
+    background-color: limegreen;
+    color: white;
+}
+.form_padding{
+    padding:10px;
+}
+.form_align{
+    text-align:center;
+}
+
+
