@@ -1,0 +1,12 @@
+.personal{
+    border: 1px solid rgb(61, 7, 7);
+    margin: 15px;
+    padding:15px;
+    background-color:rgb(247, 246, 245);
+}
+.Registerform{
+    margin:auto;
+    width: 850px;
+    background-color: #eaeaea;
+    padding:30px;
+}
