@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript where to</title>
+        <!--function placed in the head section-->
+        <script>
+            function clickMe(){
+                document.getElementById('x').innerHTML="123";
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <h1 id="y">This is external JavaScript</h1>
+            <p id="demo"></p>
+            <p id="x"></p>
+            <button onclick="clickMe()">click</button>
+            <button onclick="clickHere()">clickme</button>
+        </div>
+        <!-- Function placed in the body section -->
+        <script>
+            document.getElementById('demo').innerHTML="Hello javascript!!!";
+        </script>
+        <!--External Javascript -->
+        <script src=js_where.js></script>
+    </body>
+</html>
